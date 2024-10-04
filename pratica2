@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta chartset="UTF-8">
+    <title>noticias de ultima hora en barcelona</title>
+</head>
+<body>
+    <h1>la noticia mas destacada de las ultimas 24h</h1>
+    <h2>Primera noticia: siete de cada 10 motos electricas del sistema compartido metropolitano estaran en barcelona </h2>
+    <p>El Área Metropolitana de Barcelona (AMB) es un buen campo de pruebas para aplicar aquello de "fets, no paraules" que hizo célebre el president Jose Montilla. Porque una cosa es la teoría política, u otra muy distinta, que los 36 municipios que forman el ente le cedan competencias para aplicar estrategias comunes que incidan en la vida de los ciudadanos. Eso es precisamente lo que está a punto de suceder con el proyecto de moto compartida que este diario ya les avanzó el pasado 13 de marzo. El proyecto arrancará en ocho municipios que se repartirán un total de 9.950 motos. Será, sin embargo, una adjudicación un tanto desigual, ya que Barcelona se queda con el 73% y Sant Adrià de Besòs, por citar un ejemplo, el 1,56%.
+    </p>
+    <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfD0gTghpeJjYtncztM6EcZUqi9_eFtE-k7A&s" alt="imagen noticia">
+
+
+    <h2>Segunda noticia</h2>
+    <p>El equipo de barcelona de basquet gano la liga la semana pasada.</p>
+    <h3>Estos son los resultados</h3>
+    <u1>
+        <h2>BCN 83 - 63 Real Madrid</h2>
+    <u1>
+        <li>Equipo de baracelona 83 - 63 Equipo del madrid</li>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_4YyoanSRyEF90qDHT7oW-Rft_NNmemGWiQ&s" alt="imagen notica">
+        <li><a href=https://www.elperiodico.com/es/barcelona/20240927/collboni-coincidencias-erc-bcomu-presupuestos-2025-108638129"" target="_blank">Noticia1</a></li>
+        <li><a href="https://www.elperiodico.com/es/barcelona/20240927/upc-espectaculo-luz-natura-encesa-navidad-barcelona-108623700" target="_blank">Noticia2</a></li> 
+    </body>
+    </html>
+
+
