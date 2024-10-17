@@ -1,35 +1,39 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horari</title>
     <style>
-        /* Estilo para el h1 */
+        body {
+            font-family: Verdana, sans-serif;
+        }
+
         h1 {
             color: blue;
             text-align: center;
             font-weight: bold;
         }
 
-        /* Estilo para la tabla */
         table {
             width: 80%;
             margin: auto;
             border-collapse: collapse;
             border: 1px solid black;
             background-color: #eae4f2;
+            text-align: center;
         }
 
         th, td {
             border: 1px solid black;
             padding: 10px;
-            text-align: center;
         }
 
         thead th {
             background-color: #a8d08d;
             font-weight: bold;
+            padding: 30px;
+            font-size: 25px;
         }
 
         tbody tr:nth-child(odd) {
@@ -40,10 +44,42 @@
             background-color: #ffffff;
         }
 
-        tbody tr:nth-child(4) td {
+        #descans {
+            font-size: 20px;
+            padding: 15px;
             background-color: #d9d9d9;
             font-weight: bold;
             text-align: center;
+        }
+
+        .hora {
+            font-size: 20px;
+            padding: 10px;
+            width: 180px;
+        }
+
+        .module-lmsgi {
+            background-color: #ADD8E6;
+        }
+
+        .module-bd {
+            background-color: #FFD700;
+        }
+
+        .module-ped {
+            background-color: #98FB98;
+        }
+
+        .module-smi {
+            background-color: #FF6347;
+        }
+
+        .module-ipo {
+            background-color: #AFEEEE;
+        }
+
+        .module-diw {
+            background-color: #DDA0DD;
         }
     </style>
 </head>
@@ -53,7 +89,7 @@
         <caption>Curs 24-25</caption>
         <thead>
             <tr>
-                <th>Hora</th>
+                <th class="hora">Hora</th>
                 <th>Dilluns</th>
                 <th>Dimarts</th>
                 <th>Dimecres</th>
@@ -63,47 +99,45 @@
         </thead>
         <tbody>
             <tr>
-                <td>8:00 - 9:00</td>
-                <td>LMSGI</td>
-                <td>BD</td>
-                <td>P+ED</td>
-                <td>SI</td>
-                <td>BD</td>
+                <td class="hora">8:00 - 9:00</td>
+                <td class="module-lmsgi">LMSGI</td>
+                <td class="module-bd">BD</td>
+                <td class="module-ped" rowspan="2">P+ED</td>
+                <td class="module-smi">SI</td>
+                <td class="module-bd">BD</td>
             </tr>
             <tr>
-                <td>9:00 - 10:00</td>
-                <td>LMSGI</td>
-                <td>BD</td>
-                <td>P+ED</td>
-                <td>SI</td>
-                <td>BD</td>
+                <td class="hora">9:00 - 10:00</td>
+                <td class="module-lmsgi">LMSGI</td>
+                <td class="module-bd">BD</td>
+                <td class="module-smi">SI</td>
+                <td class="module-bd">BD</td>
             </tr>
             <tr>
-                <td>10:00 - 11:00</td>
-                <td>P+ED</td>
+                <td class="hora">10:00 - 11:00</td>
+                <td class="module-ped">P+ED</td>
                 <td>TUT</td>
                 <td>AN</td>
-                <td>P+ED</td>
-                <td>P+ED</td>
+                <td class="module-ped">P+ED</td>
+                <td class="module-ped">P+ED</td>
             </tr>
             <tr>
-                <td colspan="6" style="text-align: center;">Descans</td>
+                <td colspan="6" id="descans">Descans</td> 
             </tr>
             <tr>
-                <td>11:30 - 12:30</td>
-                <td>P+ED</td>
-                <td>DIW</td>
-                <td>IPOI</td>
-                <td>P+ED</td>
-                <td>P+ED</td>
+                <td class="hora">11:30 - 12:30</td>
+                <td class="module-ped">P+ED</td>
+                <td class="module-diw" rowspan="2">DIW</td> 
+                <td class="module-ipo">IPOI</td>
+                <td class="module-ped">P+ED</td>
+                <td class="module-ped">P+ED</td>
             </tr>
             <tr>
-                <td>12:30 - 13:30</td>
-                <td>DIW</td>
-                <td>IPOI</td>
-                <td>IPOI</td>
-                <td>P+ED</td>
-                <td>SI</td>
+                <td class="hora">12:30 - 13:30</td>
+                <td class="module-ipo">IPO 1</td> 
+                <td class="module-ipo">IPOI</td>
+                <td class="module-ped">P+ED</td>
+                <td class="module-smi">SI</td>
             </tr>
         </tbody>
     </table>
